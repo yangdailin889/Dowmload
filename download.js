@@ -7,7 +7,7 @@ const nodemailer = require('nodemailer');
 
 //下载 的文件 地址 （https://pipelines.actions.githubusercontent.com/zpVrU772asxHBYChIzvwJM0P26TGiBi6o2MdZd8Kxeew6ySLVl/_apis/pipelines/1/runs/1/signedartifactscontent?artifactName=WSA-with-Magisk-GApps-super_x64&urlExpires=2021-11-07T23%3A04%3A12.0630683Z&urlSigningMethod=HMACV1&urlSignature=GrQWKxOqUqRyfk5j2JlGxiuVJrW5DEqSiiraozMtD2E%3D）
 //vscode地址：https://az764295.vo.msecnd.net/stable/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/VSCodeUserSetup-x64-1.52.1.exe
-let fileURL = 'https://az764295.vo.msecnd.net/stable/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/VSCodeUserSetup-x64-1.52.1.exe';
+let fileURL = 'https://pipelines.actions.githubusercontent.com/zpVrU772asxHBYChIzvwJM0P26TGiBi6o2MdZd8Kxeew6ySLVl/_apis/pipelines/1/runs/1/signedartifactscontent?artifactName=WSA-with-Magisk-GApps-super_x64&urlExpires=2021-11-07T23%3A04%3A12.0630683Z&urlSigningMethod=HMACV1&urlSignature=GrQWKxOqUqRyfk5j2JlGxiuVJrW5DEqSiiraozMtD2E%3D';
 
 //分割后文件集合
 let attachments = [];
